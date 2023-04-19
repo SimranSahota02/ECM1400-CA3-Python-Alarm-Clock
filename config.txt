@@ -1,0 +1,7 @@
+{
+    "news_api_key":"623a98a7eedf4ed8a2f9506bc1303548",
+    
+    "open_weather_api_key":"7b5cb861dd9a9c2e3f84f1391721ac8b",
+
+    "city":"Exeter"
+}

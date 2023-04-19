@@ -1,0 +1,122 @@
+CANCELLED
+CANCELLED
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 14:48:29] "[37mGET /index HTTP/1.1[0m" 200 -
+CANCELLED
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\admin\Downloads\CA3\main.py", line 50, in main
+    s.enterabs(float((play_list[i])["time"]), 1, sched_handler.read_alarm(play_list[i],engine))
+  File "c:\Users\admin\Downloads\CA3\sched_handler.py", line 59, in read_alarm
+    to_read += alarm["two"] + " "
+KeyError: 'two'
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 14:48:45] "[35m[1mGET /index?alarm=2020-12-07T14%3A49&two=tw&news=news HTTP/1.1[0m" 500 -
+CANCELLED
+CANCELLED
+CANCELLED
+CANCELLED
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 16:28:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 16:28:59] "[37mGET /index?notif=Covid+report+for+Exeter HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 16:29:00] "[37mGET /index?notif=What+happens+if+the+UK+and+EU+fail+to+agree+a+Brexit+deal%3F+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 16:29:02] "[37mGET /index?alarm_item=Wow HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 16:29:11] "[37mGET /index?alarm=2020-12-04T16%3A29&two=FML+ay&weather=weather HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 16:29:54] "[37mGET /index?alarm=2020-12-07T16%3A30&two=nae+nae&news=news HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 16:30:54] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:34:27] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:34:31] "[37mGET /index?notif=Georgia+to+uphold+Biden%27s+win+as+Birx+says+states+abandoned+prevention+tactics+–+live+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:34:32] "[37mGET /index?notif=Mike+Ashley%27s+Frasers+Group+in+Debenhams+rescue+talks%3B+Brexit+fears+hit+pound+–+business+live+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:34:33] "[37mGET /index?notif=Thousands+of+ITV+competition+entrants+had+‘no+chance’+of+winning+-+The+Guardian HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:34:46] "[37mGET /index?alarm=2020-12-07T17%3A35&two=Wow&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:50:20] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:50:22] "[37mGET /index?notif=Covid+report+for+Exeter HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:50:24] "[37mGET /index?notif=Georgia+to+uphold+Biden%27s+win+as+Birx+says+states+abandoned+prevention+tactics+–+live+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:50:26] "[37mGET /index?notif=Mike+Ashley%27s+Frasers+Group+in+Debenhams+rescue+talks%3B+Brexit+fears+hit+pound+–+business+live+-+The+Guardian HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:50:41] "[37mGET /index?alarm=2020-12-07T17%3A51&two=Wow&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:50:52] "[37mGET /index?alarm_item=nae+nae HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:50:54] "[37mGET /index?alarm_item=Wow HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:50:59] "[37mGET /index?alarm_item=Wow HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:51:20] "[37mGET /index?alarm=2020-12-07T17%3A52&two=This+report&weather=weather HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:51:39] "[37mGET /index?alarm=2020-12-07T17%3A52&two=This+report2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:51:55] "[37mGET /index?alarm_item=FML+ay HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:52:04] "[37mGET /index?alarm_item=This+report2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:52:05] "[37mGET /index?alarm_item=This+report HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:53:02] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:53:05] "[37mGET /index?notif=Covid+report+for+Exeter HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:53:06] "[37mGET /index?notif=Georgia+to+uphold+Biden%27s+win+as+Birx+says+states+abandoned+prevention+tactics+–+live+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:53:07] "[37mGET /index?notif=Mike+Ashley%27s+Frasers+Group+in+Debenhams+rescue+talks%3B+Brexit+fears+hit+pound+–+business+live+-+The+Guardian HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:53:20] "[37mGET /index?alarm=2020-12-07T17%3A54&two=Wow&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:58:00] "[37mGET /index HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:58:22] "[37mGET /index?alarm=2020-12-29T17%3A59&two=This+alarm&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:58:30] "[37mGET /index?notif=Covid+report+for+Exeter HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:58:31] "[37mGET /index?notif=Georgia+to+uphold+Biden%27s+win+as+Birx+says+states+abandoned+prevention+tactics+–+live+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 17:58:43] "[37mGET /index?alarm_item=Wow HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:08:57] "[37mGET /index HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:09:25] "[37mGET /index?alarm=2020-12-07T18%3A10&two=HYep&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:21:45] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:21:49] "[37mGET /index?notif=Covid+report+for+Exeter HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:21:50] "[37mGET /index?alarm_item=This+alarm HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:22:10] "[37mGET /index?alarm=2020-12-08T20%3A23&two=Tmrw&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:33:18] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:33:27] "[37mGET /index?notif=Georgia+to+uphold+Biden%27s+win+as+Birx+says+states+abandoned+prevention+tactics+–+live+-+The+Guardian HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:33:30] "[37mGET /index?alarm_item=HYep HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 18:33:43] "[37mGET /index?alarm=2020-12-06T19%3A33&two=Wow&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 20:45:01] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 20:45:39] "[37mGET /index?alarm_item=Wow HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:53:47] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:53:48] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:53:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:54:23] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:54:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:54:26] "[37mGET /index?alarm_item=Wow HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:54:36] "[37mGET /index?alarm=2020-12-07T22%3A55&two=WOW HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:54:52] "[37mGET /index?alarm=2020-12-07T22%3A56&two=a HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Dec/2020 22:54:56] "[37mGET /index?alarm_item=WOW HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 12:53:36] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 12:53:36] "[36mGET /static/images/image.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 12:53:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 12:53:38] "[37mGET /index?notif=Covid+report+for+Exeter HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 12:53:52] "[37mGET /index?alarm=2020-12-08T12%3A54&two=Wow&weather=weather HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 12:54:05] "[37mGET /index?alarm_item=a HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 12:54:07] "[37mGET /index?alarm_item=Wow HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:14] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:16] "[37mGET /index?notif=Covid+report+for+Exeter HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:17] "[37mGET /index?notif=Millwall+players+still+plan+to+take+a+knee+before+QPR+clash+despite+boos+at+Derby+game+-+Sky+Sports HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:17] "[37mGET /index?notif=London%27s+Covid+cases+are+higher+now+than+BEFORE+England%27s+lockdown+-+Daily+Mail HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:18] "[37mGET /index?notif=Mercedes+already+working+on+fix+for+radio+problem+that+led+to+Sakhir+pit+stop+mix-up%2C+says+Shovlin+-+Formula+1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:19] "[37mGET /index?notif=Weather+report+for+Exeter HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:19] "[37mGET /index?notif=Gran+Turismo+7+Release+Window+Changed+in+Sony%27s+Edited+PS5+Video+-+GTPlanet HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:20] "[37mGET /index?notif=Sauron%2C+is+that+you%3F+World’s+largest+solar+observatory+releases+incredible%2C+if+ominous%2C+close-up+of+sunspot+-+RT HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:25] "[37mGET /index?alarm=2020-12-08T14%3A38&two=Wow HTTP/1.1[0m" 200 -
+CANCELLED
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:32] "[37mGET /index?alarm=2020-12-02T13%3A39&two=nope HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:35] "[37mGET /index?alarm_item=nope HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2020 13:38:37] "[37mGET /index?alarm_item=Wow HTTP/1.1[0m" 200 -
